@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FEEDBACK</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+	<h1>FEEDBACK FORM</h1>
+	<form id="form">
+		<div class="f">
+			<label for="name"> Name </label>
+			<input type="text" placeholder="Enter your name" />
+		</div>
+		<div class="f">
+			<label for="email">Email</label>
+			<input type="email" placeholder="Enter your email" />
+		</div>
+		<div class="f">
+			<label for="age">Age</label>
+			<input type="text" placeholder="Enter your age" />
+		</div>
+
+		<div class="f">
+			<label for="role">Which one did you like the most?</label>
+			<select name="role">
+				<option value="COLLECTIONS">COLLECTIONS</option>
+				<option value="DESIGNS">DESIGN</option>
+				<option value="QUALITY">QUALITY</option>
+				<option value="">Other</option>
+			</select>
+		</div>
+
+		<div class="f">
+			<label>Do you Enjoy our collections</label>
+			<label for="r1"><input type="radio" name="r1">Yes</input></label>
+			<label for="r2"><input type="radio"name="r2">No</input></label>
+			<label for="r3"><input type="radio" name="r3">Maybe</input>
+			</label>
+		</div>
+
+		<div class="f">
+			<label>which would you liked the most?<small>(Check all that apply)</small></label>
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">TRACKS</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">BOXERS</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">JEAN BOXERS</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">LOWER</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">JEANS TROUSERS</input></label>
+		</div>
+
+		<div class="f">
+			<label for="comment">Any comments or suggestions</label>
+			<textarea name="comment" placeholder="Enter your comment here"></textarea>
+		</div>
+		<input type="submit" value="SUBMIT">
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+body {
+    background-color: #d738e9;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(242, 10, 10, 0.5);
+}
+.f {
+    text-align: left;
+    margin-bottom: 25px;
+}
+.f label {
+    display: block;
+    margin-bottom: 10px;
+}
+.f input,
+.f select,
+.f textarea {
+    border: 2px solid #f9e506;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+.f input[type="radio"],
+.f input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}

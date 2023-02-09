@@ -1,0 +1,49 @@
+.s1{
+    border: 1px sandybrown;
+    background-color: whitesmoke;
+    height: 50px;
+}
+ol{
+    float: left;
+}
+ol li{
+    float: left;
+    width: 150px;
+    position: relative;
+    left: 90%;
+    list-style-type: circle;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+ol li a{
+    color: black;
+    text-decoration: dotted;
+}
+
+ol li a:hover{
+    border-bottom:4px solid red;
+}
+h2{
+    position: relative;
+    left: -30%;
+    margin-top: 3px;
+    text-transform: uppercase;
+    color: rgb(241, 13, 233);
+    font-size: 30px;
+}
+.s2{
+  background-size: cover;
+}
+
+.text{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+h1{
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    width: 100px;
+    line-height: 90px;
+}

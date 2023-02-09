@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(249, 223, 192);
+}
+.c1{
+    border:2px solid rgb(21, 20, 20); 
+    border-radius: 10%;
+    padding: 30px;
+}
+.contact{
+    background-color: rgb(192, 250, 165);
+    margin-top: 100px;
+}
+.left{
+    border:2px solid red; 
+}
